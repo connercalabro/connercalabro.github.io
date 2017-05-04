@@ -1,0 +1,557 @@
+/* css Chelsea Hayashi's Website */
+
+
+/* header */
+
+/*homepage {*/
+	
+/*	background-image: url("assets/homebackground.png") ;*/
+/*}*/
+/*.headerhome { */
+/*	text-align: center; */
+/*	background-size: auto; */
+/*	background-image: url("assets/homebackground.png") ;*/
+/*}*/
+
+header { 
+	text-align: center; 
+	background-image: url("sasabrown.png");
+	background-size: auto; 
+	width: 100% ; 
+	height: 180px; 
+	}
+
+nav {
+	width: 1000px ;
+/*	border: 5px solid red ;*/
+	margin-left: auto ;
+	margin-right: auto ;
+	
+}
+
+.padding {
+	padding-left: 00px;
+	padding-right: 100px;
+	margin-left: auto ;
+	margin-right: auto ; 
+}
+
+.dropdownbutton{ 
+	text-decoration: none ;
+	margin-right: 0px; 
+	margin-left: 0px ;
+	font-family: "romanD", sans-serif ;
+	text-transform: uppercase;
+	font-weight: bolder ; 
+	font-size: 12px ; 
+	color: black ;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-left: 30px ;
+	padding-right: 30px ; 
+	margin-right:  40px ; 
+	border: 1px solid black ; 
+	background-color: transparent ; 
+	}
+
+.dropdown {
+	position: relative ;
+	display: inline-block ;
+}
+
+.dropdown:hover .dropdowncontent {
+/*	background-color: black ; */
+/*	color: white ;*/
+	display: block ;
+}
+
+
+.dropdown:hover .dropdownbutton {
+	background-color: black ;
+	color: white ;
+	
+}
+#current {
+	background-color: black ; 
+	color: white ;
+}
+
+
+.dropdowncontent {
+	position: absolute ; 
+	display: none ;
+	z-index: 1 ;
+}
+
+.dropdowncontent a{ 
+	text-decoration: none ;
+	margin-right: 0px; 
+/*	margin-left: 100px ;*/
+	font-family: "romanD", sans-serif ;
+	text-transform: lowercase;
+	font-weight: bolder ; 
+	font-size: 12px ; 
+	color: black ;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-left: 30px ;
+	padding-right: 30px ; 
+	margin-right:  40px ; 
+	border: 1px solid black ; 
+	display: block ;
+	background-color: white;
+	text-align: left ;
+	}
+
+.dropdowncontent a:hover {
+	color: darkgray;
+}
+
+.show {
+	display: block ;
+}
+
+#fineartsmenu {
+	margin-left: 305px ;
+	
+}
+
+/*#writingmenu {*/
+/*	margin-left: 480px ;*/
+	
+}
+
+.navheader {
+margin: auto;
+	display: block;
+	font-family: "quicksand", sans-serif ;
+	text-transform: lowercase ;
+	letter-spacing: 10px ;  
+	font-weight: lighter ;
+	font-size: 35px ;
+	color: white ; 
+	text-align: center ; 
+	padding-bottom: 47px  ;
+	padding-top: 15px;	
+	
+}
+header h1 {
+	margin: auto;
+	display: block;
+	font-family: "quicksand", sans-serif ;
+	text-transform: lowercase ;
+	letter-spacing: 10px ;  
+	font-weight: lighter ;
+	font-size: 35px ;
+	color: white ; 
+	text-align: center ; 
+	padding-bottom: 47px  ;
+	padding-top: 15px;
+
+}
+/*	border: 5px solid yellow ; */
+	
+	
+
+
+.about {
+	
+	
+}
+
+/*the body */
+body {
+	margin: 0 ;
+}
+
+section.main {
+	width: 1000px ;
+/*	border: 5px solid red ;*/
+	margin-left: 100px ;
+	margin-right: 100px ;
+	line-height: 15px ;
+	padding-top: 20px
+	
+	
+}
+
+/*the headline on 5  main pages */
+
+h1 {
+	font-family:  "quicksand", sans-serif;
+	text-transform: uppercase;
+	font-weight:inherit ;
+	letter-spacing: 3px ;
+	font-size: 35pt ;
+	color: black; 
+	text-align: left;
+	margin-left: 100px ;
+	
+}
+
+
+/*subhead of main pages */
+
+h2 {
+	font-family: "mistral", cursive ;
+	text-transform: lowercase ;
+	font-size: 20pt ;
+	text-align: left;
+	margin-left: 100px ;
+	
+}
+
+/*headline on subpages */
+
+h3 {
+	font-family:  "quicksand", sans-serif;
+	text-transform: lowercase;
+	font-weight:bold;
+	letter-spacing: 3px ;
+	font-size: 30pt ;
+	color: black; 
+	text-align: left;
+	padding-top: 15px; 
+	padding-bottom: 20px;
+	padding-left: 30px ;
+	padding-right: 30px ; 
+	margin-right:  100px ; 
+	border-bottom: 1px solid black ;
+	text-decoration: none ;  
+	
+}
+
+figcaption {
+	font-family:  "helvetica neue", sans-serif;
+	font-weight:inherit;
+	text-transform: lowercase ;
+	font-size: 13px ;
+	letter-spacing: 2px ; 
+	line-height: 20px ; 
+	color: gray; 
+	width: 350px ;  
+	text-align: left;
+	padding-top: 15px; 
+	padding-bottom: 20px;
+	margin-bottom: 30px ;
+/*	padding-left: 30px ;*/
+/*	padding-right: 30px ; */
+/*	margin-right:  40px ;*/
+/*	margin-left: 100px;*/
+	
+}
+
+
+/*the footer */
+
+footer { 
+	text-align: right;  
+/*	position: fixed;*/
+/*	bottom: 0px ;*/
+/*	width: 100% ;*/
+	margin-left: 100px ;  
+	width: 100% !important ; 
+/*	z-index: 1; */
+	background-color: white ;
+    clear: both ;
+	background-image: url(assets/borderimg.png)
+
+	}
+
+footer #social_buttons {
+    margin-top: 12px ;
+	margin-right: 25px ;
+    margin-bottom: 20px ;
+    margin-left: 30px ;
+/*	width:  150px;*/
+/*	height: 100px; */
+    float: right ;
+
+}
+
+footer #footer_email {
+    margin-top: 10px ;
+    float: right ; 
+	padding-bottom: -100px ;
+	text-decoration: underline ; 
+}
+footer #footer_phone {
+    margin-top: 10px ;
+    margin-left: 110px ;
+	margin-right: 70px ;
+    float: right ;
+	text-decoration: underline ;
+}
+
+/*
+footlinks {
+	width: 1000px ;
+	border: 5px solid red ;	
+}
+*/
+footer:after {
+    content: "";
+    clear: both ;
+    display: table ;
+}
+
+footer a{ 
+	margin-right: 0px; 
+	margin-left: 0px ;
+	margin-top: 25px ;
+	font-family: "romanD", sans-serif ;
+	text-transform: uppercase; 
+	font-size: 10px ; 
+	color: black ;
+	padding-top: 15px; 
+	padding-bottom: 5px;
+/*	margin-right:  100px ; */
+	text-decoration: none; 
+	}
+
+
+.email {
+}
+
+
+.inline {
+	display: inline-block;
+
+}
+
+<a href="http://www.facebook.com">
+				<img src="assets/social/fbblack.png" width="50" height="50" title="Facebook">
+#allFive {
+	height: 400px;
+	margin-left: auto;
+	margin-right: 400px ; 
+	border: 5px solid green ;  
+	
+}
+#allFive > div {
+	height: 400px;
+	width: 80% ;
+	
+}
+
+#aboutfirstimg {
+	margin-left: 200px;
+	position: relative;
+	top: 40px;
+	height: 278px ;
+	width: 215px ; 
+}
+
+#aboutsecondImg {
+	position: relative;
+	margin-left: 450px ;
+	top: -360px;
+	left: 20px;
+}
+
+#aboutthirdImg {
+	position: relative;
+	margin-left: 25px ;
+	top: -363px;
+	left: 40px;
+}
+
+#aboutfourthImg {
+	position: relative;
+	top: -320px;
+	margin-left: 470px;
+}
+
+#aboutfifthImg {
+	position: relative;
+	top: -369px;
+	left: 50px;
+}
+
+#designfirstImg {
+	margin-left: 200px;
+	position: relative;
+	top: 40px;
+	
+}
+
+#designsecondImg {
+	margin-left: 420px ;
+	position: relative ;
+	top: -440px ; 
+}
+
+#designthirdImg {
+	position: relative ;
+	top: -361px ; 
+	left:45px
+}
+
+#designfourthimg {
+	position: relative ;
+	top: -400px ; 
+	left:375px
+}
+
+.mainfinearts {
+	width: 80% ;
+	margin-left: 200px ;
+	margin-top: 50px ;
+}
+
+
+.mainwriting {
+	width: 80% ;
+	margin-left: 200px ;
+	margin-top: 50px ;
+}
+
+#writingfig2 {
+	margin-left: 50px ;
+}
+
+#fineartsfig2 {
+margin-left: 20px ;
+	
+}
+
+
+.mainwho, .skillsmain, .interestsmain, .educationmain, .logosmain, .coversmain, .powerpointsmain, .postersmain, .drawingsmain, .paintingsmain, .personalmain, .researchmain, .resumemain, .contactmain {
+	width: 80% ;
+	margin: auto ; 
+}
+
+
+p.whotext, p.skillstext, p.intereststext, p.educationtext{
+	float: left ; 
+	font-family:  "helvetica neue", sans-serif;
+	font-weight:inherit;
+	font-size: 13px ;
+	letter-spacing: 2px ; 
+	line-height: 20px ; 
+	color: gray; 
+	width: 350px ;  
+	text-align: left;
+	padding-top: 15px; 
+	padding-bottom: 20px;
+	padding-left: 30px ;
+	padding-right: 30px ; 
+	margin-left: 20px; 
+	margin-right: 20px ; 
+	
+}
+
+.whofigure1, .skillsfigure1, .interestsfigure1, .educationfigure1, .logofigure1, .coversfigure1, .powerpointfigure1, .posterfigure1, .drawingfigure1, .paintingfigure1, .personalfigure1, .researchfigure1  {
+/*	margin-left: 30% ; */
+/*	margin-top: -52% ; */
+/*	margin-right: 30% ; */
+	position: relative ; 
+}
+/*.figure1 {*/
+/*	margin-left: 100px ;*/
+/*	margin-bottom: 50px ; */
+/*	border: 5px solid purple ; */
+	
+}
+
+.whofigure2, .skillsfigure2, .interestsfigure2, .educationfigure2, .logofigure2, .coversfigure2, .coversfigure3, .coversfigure4, .coversfigure5, .coversfigure6, .powerpointfigure2, .posterfigure2, .posterfigure3, .posterfigure4,  .posterfigure5, .posterfigure6, .drawingfigure2, .drawingfigure3, .paintingfigure2, .paintingfigure3, .paintingfigure4, .paintingfigure5, .paintingfigure6, .personalfigure2, .personalfigure3, .researchfigure2            {
+/*	margin-left: 30% ; */
+/*	margin-top: -52% ; */
+/*	margin-right: 30% ; */
+	position: relative ; 
+	
+}
+
+div, p, footer, h1, h2, h3, img {
+/* border: 2px solid red ;*/
+}
+
+.drawingfigure3 {
+	margin-left: 90px ;
+}
+
+.captiontomove {
+	margin-left: 90px ; 
+	
+}
+
+.paintingfigure3 {
+	margin-top: 200px;
+}
+
+.paintingfigure5 {
+	margin-left: 70px;
+	margin-top: 51px ;
+}
+
+.skylinecaption {
+	margin-left: 70px ;
+}
+
+.column2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+	height: 750px ;
+}
+
+.column3 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+	margin-top: 30px ;
+	width: 80% ;
+	height: 700px;
+}
+
+.socialblocks {
+	margin-top: 20px ;
+}
+
+	
+.logofigure1 {
+	background-image: url("assets/design/logos/logo1-261x265.png");
+	width: 261;
+	height: 265;
+	
+}
+
+.logofigure1:hover {
+	background-image: url("assets/design/logos/over-logo1.png"), url("assets/design/logos/logo1-261x265.png");
+	overflow:scroll;
+}
+
+.dropdownbuttonhome{ 
+	text-decoration: none ;
+	margin-right: 0px; 
+	margin-left: 0px ;
+	font-family: "romanD", sans-serif ;
+	text-transform: uppercase;
+	font-weight: bolder ; 
+	font-size: 12px ; 
+	color: white;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-left: 30px ;
+	padding-right: 30px ; 
+	margin-right:  40px ; 
+	border: 1px solid white ; 
+	background-color: transparent ; 
+	}
+
+.navheader {
+	width: 1000px ;
+/*	border: 5px solid red ;*/
+	margin-left: auto ;
+	margin-right: auto ;
+	
+	
+	
+}
+
